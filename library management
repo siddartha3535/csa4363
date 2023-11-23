@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+</head>
+<body>
+
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+
+    <section>
+        <form id="librarianLogin">
+            <h2>Librarian Admin Login</h2>
+            <button type="button" onclick="librarianLogin()">Login</button>
+        </form>
+        <div id="librarianFunctions" style="display: none;">
+            <form id="addBookForm">
+                <h2>Add Book</h2>
+                <button type="button" onclick="addBook()">Add Book</button>
+            </form>
+            <form id="updateDeleteBookForm">
+                <h2>Update/Delete Book</h2>
+                <button type="button" onclick="updateDeleteBook()">Update/Delete Book</button>
+            </form>
+            <form id="issueBookForm">
+                <h2>Issue Book for Student</h2>
+                <button type="button" onclick="issueBook()">Issue Book</button>
+            </form>
+            <form id="returnBookForm">
+                <h2>Return Book Status</h2>
+                <button type="button" onclick="returnBook()">Return Book</button>
+            </form>
+            <form id="makeFineForm">
+                <h2>Make Fine</h2>
+                <button type="button" onclick="makeFine()">Make Fine</button>
+            </form>
+            <form id="updateMaterialForm">
+                <h2>Update Material (Year, Semester Wise)</h2>
+                <button type="button" onclick="updateMaterial()">Update Material</button>
+            </form>
+            <h2>View Material</h2>
+            <table id="viewMaterialTable">
+            </table>
+        </div>
+    </section>
+    <section>
+        <form id="userLogin">
+            <h2>User Login</h2>
+            <button type="button" onclick="userLogin()">Login</button>
+        </form>
+        <form id="userRegistrationForm">
+            <h2>User Registration</h2>
+            <button type="button" onclick="registerUser()">Register</button>
+        </form>
+        <div id="userFunctions" style="display: none;">
+            <form id="searchBookForm">
+                <h2>Search Book</h2>
+                <button type="button" onclick="searchBook()">Search Book</button>
+            </form>
+            <h2>My Borrow History</h2>
+            <table id="borrowHistoryTable">
+            </table>
+            <form id="checkFineForm">
+                <h2>Check Fine</h2>
+                <button type="button" onclick="checkFine()">Check Fine</button>
+            </form>
+            <form id="searchMaterialForm">
+                <h2>Search Material (Year, Semester Wise)</h2>
+                <button type="button" onclick="searchMaterial()">Search Material</button>
+            </form>
+            <h2>Download Material</h2>
+            <table id="downloadMaterialTable">
+            </table>
+            <form id="userProfileForm">
+                <h2>My Profile</h2>
+                <button type="button" onclick="updateUserProfile()">Update Profile</button>
+            </form>
+        </div>
+    </section>
+    <script>
+        function librarianLogin() { /* Add logic */ }
+        function addBook() { /* Add logic */ }
+        function updateDeleteBook() { /* Add logic */ }
+        function issueBook() { /* Add logic */ }
+        function returnBook() { /* Add logic */ }
+        function makeFine() { /* Add logic */ }
+        function updateMaterial() { /* Add logic */ }
+        function userLogin() { /* Add logic */ }
+        function registerUser() { /* Add logic */ }
+        function searchBook() { /* Add logic */ }
+        function checkFine() { /* Add logic */ }
+        function searchMaterial() { /* Add logic */ }
+        function updateUserProfile() { /* Add logic */ }
+    </script>
+
+</body>
+</html>
